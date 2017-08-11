@@ -1,0 +1,21 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.11.3",
+    "parser": "^0.1.4"
+  }
+}
