@@ -1,7 +1,6 @@
 {
   "name": "login",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,11 +10,20 @@
   "license": "ISC",
   "dependencies": {
     "body": "^5.1.0",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "hbs": "^4.0.1",
     "mongodb": "^2.2.30",
-    "mongoose": "^4.11.3",
+    "mongoose": "^4.13.6",
     "parser": "^0.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravjotsingh/login-and-registration-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saravjotsingh/login-and-registration-nodejs/issues"
+  },
+  "homepage": "https://github.com/saravjotsingh/login-and-registration-nodejs#readme",
+  "description": ""
 }

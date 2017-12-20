@@ -58,7 +58,8 @@ app.post('/loggedin',(req,res)=>{
         if(docs===null){
             return res.status(400).send('<h1>Wrong Password and Email</h1>') ;
         }
-        res.status(200).send('<h1>Login Successfull</h1>');
+        return res.render('page.hbs');
+        //res.status(200).send('<h1>Login Successfull</h1>');
     },(e)=>{
         res.status(404).send(e);
     })
